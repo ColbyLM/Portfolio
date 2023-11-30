@@ -34,6 +34,25 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+nav section {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav section li {
+    margin: 0 10px;
+}
+
+nav section li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav section li a:hover {
+    text-decoration: underline;
+}
+
 /* About Me styles */
 #about {
     text-align: center;
@@ -55,6 +74,12 @@ nav ul li a:hover {
 
 /* Skills styles */
 #skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#skill-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
